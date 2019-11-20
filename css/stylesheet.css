@@ -1,0 +1,351 @@
+body {
+    background-color:orange;
+}
+
+.container{
+    width: 1280px;
+    height:0 auto;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    text-align: center;
+   
+}
+
+
+.navbar {
+    
+    display: flex;
+    padding: 16px;
+    position: fixed;
+    width: 1280px;
+    top: 0;
+    text-shadow: 1px 3px red;
+    text-decoration: none;
+
+    
+}
+
+.title {
+    margin: none; 
+}
+.title a{
+    font-size:  135px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    text-shadow: 1px 4px red;
+    text-decoration: none;
+}
+
+.navbar ul {
+   display: block;
+    margin-left:0px;
+    margin-right: 50px;
+   margin-top: 65px;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    padding: 50px; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 1px, 5px, red;
+    font-size: 60px;
+    
+}
+.navbar ul li a:hover {
+    transform: scale(1.2);
+    display: inline; 
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    color: white;
+}
+.tour_list_img{
+    width: 575px;
+    height: 575px;
+    position: relative;
+    z-index: 1;
+    margin-top: 370px;
+    margin-left: 380px;
+    transform: scale(1.0);
+}
+.tour_list_img:hover {
+    transform: scale(1.2);
+}
+
+
+.wrapper {
+    margin-top: 100px;
+    position: relative;
+}
+.album_cover_img{
+    float: left
+}
+
+.album_cover_img:hover{
+    transform: scale(1.2);
+}
+
+.live_photo_img{
+    float: right;
+    margin-top: 200px;
+    width: 600px;
+}
+
+.flowers_img{
+    margin-top: 200px;
+    float: right;
+
+}
+
+.live_home{
+  margin-top: 100px;
+    margin-bottom: 200px;
+    float: left;
+
+ 
+}
+
+
+.sigrid_pink{
+    float: right;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+ 
+
+
+.sigrid_field{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.vid{
+    float: right;
+    margin-top: 200px;
+}
+
+.sigrid_happy{
+    float: right;
+    margin-top: 100px;
+    
+    
+}
+
+.vid_two{
+   float: left;
+    top: 500px;
+    margin-top: 200px;
+}
+
+footer{
+    position: relative;
+   
+}
+
+
+
+
+/*--navbar----------------------------*/
+
+.grid_container{
+    margin-top:0 auto;
+}
+
+
+.bg_royalblue{
+    background-color: royalblue;
+    
+}
+
+
+.body_two{
+    background-color: royalblue;
+    width: 1280px;
+    height:0 auto;
+    margin:0 auto;
+}
+
+.title_Bio a{
+    font-size: 135px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    text-shadow: 1px 4px pink;
+    text-decoration: none;
+}
+
+.pink_shadow li a{
+    text-shadow: 1px 4px pink;
+}
+
+
+.pink_shadow li a{
+    color: white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    float: right;
+    line-height: 1.5em;
+}
+
+/*--TourPage---------------------*/
+
+.bg_yellow{
+    background-color: #eed264;
+}
+
+
+.body_three{
+    background-color: #eed264;
+    width: 1280px;
+    height:0 auto;
+    margin:0 auto;
+    
+}
+
+.red_shadow li a{
+    text-shadow: 1px 4px red;
+}
+
+.red_shadow li a{
+    color: white;
+}
+
+.title_tour a{
+    font-size: 135px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    text-shadow: 1px 4px red;
+    text-decoration: none;
+    
+}
+
+
+/*gallery begins----------------*/
+
+.bg_deeppink{
+    background-color: pink;
+}
+
+.title_gallery a{
+    font-size: 135px;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    text-shadow: 1px 4px skyblue;
+    text-decoration: none;
+}
+
+.blue_shadow li a{
+    text-shadow: 1px 4px skyblue;
+    
+}
+
+.slide{
+    width: 700px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.sigrid_bio{
+    width: 700px;
+    height: 900px;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+.wrapper{
+    position: relative;
+    padding-top: 100px;
+}
+
+.bio_text{
+    position: absolute;
+    top:450px;
+    left: 1000px;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 
+}
+
+.pic_container{
+    
+    width: 1080px;
+}
+
+.gallery{ 
+    padding-left: 0px;
+}
+
+  
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 360px;
+    padding-bottom: 30px;
+    position: sticky;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.25);
+}
+    
+
+.footer ul li {
+    list-style: none;
+    display: inline;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    padding: 40px; 
+    float: left;
+    position: relative;
+    top:80px;
+}
+
+footer ul li a{
+    color: white;
+    
+}
+
+
+
+
+    
+
+
